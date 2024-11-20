@@ -1,0 +1,690 @@
+
+/* ========== startGlobsl ========== */
+.root{
+    --main-color:rgb(52, 52, 52);
+    
+}
+body{
+    font-family: Poppins, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Montserrat, sans-serif ;
+}
+.size-icon{
+    font-size: 30px;
+}
+.fon-size{
+    font-size:60px ;
+}
+.ccl{
+    color: #748182;
+}
+.bg-daark{
+    background-color: rgb(247, 247, 247);
+}
+.bd-color{
+    color: #888;
+}
+section{
+    margin-top: 50px;
+}
+html{
+    scroll-padding-top: 74px;
+}
+/* <!-- <==========Home==========> --> */
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../picture/bg.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+header .text-header h1::after{
+    content: "";
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.text-header h5{
+font-family: Montserrat, sans-serif ;
+font-style: normal;
+font-size: 50px;
+line-height: 55px;
+font-weight: 800;
+color: rgb(255, 255, 255);
+}
+
+@keyframes typing {
+
+    0% {
+        content: " |";
+    }
+    1.7% {
+        content: " D|";
+    }
+    3.4% {
+        content: " De|";
+    }
+    5.1% {
+        content: " Dev|";
+    }
+    6.8% {
+        content: " Deve|";
+    }
+   8.5% {
+        content: " Devel|";
+    }
+    10.2% {
+        content: " Develo|";
+    }
+    11.9% {
+        content: " Develop|";
+    }
+   13.6% {
+        content: " Develope|";
+    }
+    15.3% {
+        content: " Developer |";
+    }
+    17% {
+        content: " Developer |";
+    }
+    18.7% {
+        content: " Developer |";
+    }
+   20.4% {
+        content: " Developer |";
+    }
+   22.1% {
+        content: " Develope|";
+    }
+  23.8% {
+        content: " Develop|";
+    }
+    25.5% {
+        content: " Develo|";
+    }
+    27.2% {
+        content: " Devel|";
+    }
+    28.9% {
+        content: " Deve|";
+    }
+    30.6% {
+        content: " Dev|";
+    }
+    32.3% {
+        content: " De|";
+    }
+    34% {
+        content: " D|";
+    }
+   35.7% {
+        content: " |";
+    }
+    37.4% {
+        content: " |";
+    }
+   39.1% {
+        content: " |";
+    }
+    40.8% {
+        content: " |";
+    }
+    42.5% {
+        content: " D|";
+    }
+   44.2% {
+        content: " De|";
+    }
+    45.9% {
+        content: " Des|";
+    }
+    47.6% {
+        content: " Desi|";
+    }
+    49.3% {
+        content: " Desig|";
+    }
+    51% {
+        content: " Design|";
+    }
+    52.7% {
+        content: " Designe |";
+    }
+   54.4% {
+        content: " Designer |";
+    }
+    56.1% {
+        content: " Designer |";
+    }
+    57.8% {
+        content: " Designer |";
+    }
+    59.5% {
+        content: " Designer |";
+    }
+    61.2% {
+        content: " Designe|";
+    }
+    62.9% {
+        content: " Design|";
+    }
+    64.6% {
+        content: " Desig|";
+    }
+   66.3% {
+        content: " Desi|";
+    }
+    86% {
+        content: " Des|";
+    }
+    69.7% {
+        content: " De|";
+    }
+   71.4% {
+        content: " D|";
+    }
+    73.174.8% {
+        content: " |";
+    }
+   76.5% {
+        content: " |";
+    }
+   79.9% {
+        content: " |";
+    }
+   81.6% {
+        content: " |";
+    }
+   83.3% {
+        content: " |";
+    }
+    85% {
+        content: " |";
+    }
+    86.7% {
+        content: " |";
+    }
+   90.1% {
+        content: " L|";
+    }
+   91.8% {
+        content: " La|";
+    }
+    93% {
+        content: " Lar|";
+    }
+   95% {
+        content: " Larr|";
+    }
+    96% {
+        content: " Larry|";
+    }
+   89.6% {
+        content: " Larry D|";
+    }
+    100% {
+        content: " Larry Da |";
+    }
+    103.7% {
+        content: " Larry Dai|";
+    }
+    105.4% {
+        content: "  Larry Dain|";
+    }
+    107.1% {
+        content: " Larry Daine |";
+    }
+    108.8% {
+        content: " Larry Dainel |";
+    }
+    110.5% {
+        content: " Larry Dainels|";
+    }
+    
+} 
+
+.cicle li{
+    width:40px ;
+    height:40px ;
+    border-radius: 50%;
+    background-color:  rgb(1, 10, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cicle li i{
+    color: white;
+}
+.navbar  ul li a{
+    position: relative;
+}
+
+.navbar .nav-link.active::after{
+    content: "";
+    width:60%;
+    height:3px ;
+    position: absolute;
+    left: 10px;
+    top: 100%;
+    transition: all 0.4s;
+    background-color:white;
+}
+.navbar .nav-link{
+    color: white;
+}
+.navbar .nav-link.active{
+    color: black;
+}
+
+/* <!-- <========== About ==========> --> */
+.hero{
+    position: relative;
+}
+.hero-img::after {
+    content: "";
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    left: 40px;
+    bottom:   -30px;
+    background-image: url(../picture/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+ .progress .progress-bar{
+    background-color: black;
+} 
+
+.rang{
+    position: relative;
+}
+.skills-progress span:after {
+    content: attr(data-value);
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    font-size: 11px;
+    color:white;
+}
+
+.rang .skills-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.btn-link{
+    background-color:black ;
+    color: white;
+    text-decoration: none;
+    border: 3px solid black;
+}
+.btn-link:hover{
+    background-color: white;
+}
+.btt .btn1{
+    background-color: white;
+    border:2px solid #343434;
+}
+.btt .btn1:hover{
+    background-color:black;
+    color: white;
+}
+.btt .btn2{
+    background-color:black;
+    color: white;
+}
+.btt .btn2:hover{
+    background-color:white;
+    color:black;
+    border: 1px solid black;
+}
+.p-about{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+.spabout p{
+    letter-spacing:2px;
+    margin-bottom: 20px;
+    color: #999;
+}
+/* <!-- <========== Serivices ==========> --> */
+.title-ser{
+    position: relative;
+}
+.text-services h3::after{
+    content: "";
+    width: 20%;
+    height: 30px;
+    background-image: url(../picture/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+   /* right: 500px;
+   bottom: px; */
+   bottom:  -25px;
+   right: 500px;
+    z-index: 1;
+}
+.icon-services{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+.cards .card-item:hover .icon-services{
+    background-color: black;
+    color: #cde1f8;
+
+}
+.icon-services i{
+    transition: color 0.3s;
+    font-size: 2rem;
+}
+
+
+/* <!-- <========== Works ==========> --> */
+.title-work{
+    position: relative;
+}
+.title h3::after{
+    content: "";
+    width: 20%;
+    height: 30px;
+    background-image: url(../picture/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom:  -10px;
+    right:500px;
+    z-index: -1;
+
+}
+.porotfolio .inner:hover img{
+    transform: scale(1.5);
+ }
+.porotfolio .inner img{
+    transition: all 0.3s;
+}
+.porotfolio .inner::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.95);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 5px solid rgb(247, 247, 247);
+    
+
+}
+ .porotfolio .inner:hover::after{
+    opacity: 1;
+}  
+  .porotfolio .inner .layeer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100;
+    left: 0;
+    transition: all 0.3s;
+    z-index: 10;
+}  
+.porotfolio .inner:hover .layeer{
+    top: 0;
+}
+
+
+.nav-tabs{
+    border: none;
+}
+.nav{
+    justify-content: center;
+    margin-block:20px ;
+}
+.nav-tabs .nav-link{
+    border: none;
+    border-radius: 0;
+    color: black;
+}
+.nav-tabs .nav-link.active{
+    color: white;
+    border-radius: 20px;
+}
+
+.nav-tabs .nav-link.active{
+    color: black;
+}
+.nav-item{
+    position: relative;
+}
+.nav-tabs .nav-link.active::after{
+    content: "";
+    width:60%;
+    height:3px ;
+    position: absolute;
+    left: 10px;
+    top: 100%;
+    transition: all 0.4s;
+    background-color: black;
+}
+.icon-work i{
+    width:40px ;
+    height:40px ;
+    border-radius: 50%;
+    background-color:  rgb(1, 10, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* <!-- <========== Clients ==========> --> */
+.title-client{
+    position: relative;
+}
+.title-client .title::after{
+    content: "";
+    width: 20%;
+    height: 30px;
+    background-image: url(../picture/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+   /* right: 500px;
+   bottom: px; */
+   top: 35px;
+    right: 500px;
+    z-index: 1;
+
+}
+.carousel-indicators{
+    bottom: -50px;
+ }
+ .wosp p{
+    word-spacing: 2px;
+ }
+ .carousel-indicators [data-bs-target] {
+  background-color:#343434;
+  width: 10px;
+  height: 10px; ;
+  border-radius: 50%;
+ }
+ .carousel-inner img{
+    width: 10%;
+ }
+ .owl-theme .owl-dots .owl-dot span {
+background-color: #d6d6d6;
+ }
+
+
+ /* <!-- <========== Team ==========> --> */
+.coon{
+    position: relative;
+}
+.text-contact h3::after{
+    content: "";
+    width: 15%;
+    height: 30px;
+    background-image: url(../picture/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 75px;
+    right: 550px;
+    z-index: 1;
+} 
+
+
+.team-area {
+    padding-top: 5%;
+  }
+  .team-card{
+    background-color: rgba(52, 52, 52, .8);
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .img-rounded {
+    border-radius: 6px;
+  }
+  .team-area h4{
+  font-size: 1.5625rem;
+  line-height: 1.75rem;
+  }
+  .team-area h5{
+    font-size: 1.25rem;
+    line-height: 1.375rem;
+  }
+  .img-wrapper{
+    position: relative;
+  }
+  .team-card img{
+    transition: all 1s;
+  }
+  .team-layer{
+    background-color: rgba(255, 0255, 255);
+    opacity: 0;
+    position:absolute;
+    inset: 5px;
+    transform: rotateY(180deg);
+    transition: all 1s;
+  }
+  .team-card:hover .team-layer{
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+  .team-card:hover img{
+    transform: scale(1.05);
+  }
+  .team-layer ul li{
+    margin-right: 10px;
+  }
+  .team-layer ul li:hover a{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+  .team-layer ul li a{
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #000;
+    display: block;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+ /* <!-- <========== Contact ==========> --> */
+
+ .con{
+    position: relative;
+ }
+.text-contaact h3::after{
+    content: "";
+    width: 20%;
+    height: 30px;
+    background-image: url(../picture/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 75px;
+    right: 500px;
+    z-index: -1;
+}
+.text-contaact h3{
+    font: size 40px; 
+    font-weight: 900;
+    font-style: normal;
+    line-height: 44px;
+    color: var(--main-color);
+}
+ .icon-contact{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: auto;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+ }
+
+ .icon-contact i{
+    transition: color 0.3s;
+    font-size: 2rem;
+}
+ 
+.icon-contact:hover{
+    color: white;
+    background-color: black;
+}
+    
+footer input{
+background-color:#f4f4f4;
+border: 0;
+height: 40px;
+border-radius: 5px;
+}
+footer input:focus{
+    outline: none;
+}
+footer textarea{
+    background-color:#f4f4f4;
+    border: 0;
+    height: 160px;
+    border-radius: 5px;
+}
+footer textarea:focus{
+    outline: none;
+}
+.butt button{
+    background-color: black;
+    color: white;
+}
+.butt button:hover{
+    border: 1px solid black;
+}
+ footer p{
+font-size: 13px;
+word-spacing:2px;
+line-height: 1.6;
+color: #748182;
+}
